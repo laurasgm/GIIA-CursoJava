@@ -13,34 +13,8 @@ import java.io.*;
  * @author Laura
  */
 public class Calculadora {
-    
-    
-
-    public double suma(double a, double b){
-        
-        return a + b;
-    }
-    
-    public double multiplicacion(double a, double b){
-        
-        return a * b;
-    }
-    
-    public double division(double a, double b){
-        
-        return a / b;
-    }
-    public double resta(double a, double b){
-        
-        return a - b;
-    }
-    
-    public static void validarDenominador(double b){
-        if(b == 0){
-            System.out.println("division por cero?");
-        }
-    }
-    
+   
+    /*
     public static boolean ValidarNumero(String numero){
         
         try{
@@ -50,32 +24,11 @@ public class Calculadora {
         
         return false;
     }
-    
-    public int hextodec (String numero){
-        return Integer.parseInt(numero, 16);
-        
-    }
-    
-    public int bitodec (String numero){
-        return Integer.parseInt(numero, 2);
-        
-    }
-    
-    public String dectohex(String numero){
-        int resul = Integer.parseInt(numero);
-        return Integer.toHexString(resul);
-    }
-    
-    public String dectobi(String numero){
-        int resul = Integer.parseInt(numero);
-        return Integer.toBinaryString(resul);
-    }
-    
-    
+    */
     public static void main(String[] args) {
         // TODO code application logic here
         //String operacion = JOptionPane.showInputDialog("Introduzca su operacion");
-        
+        /*
         Calculadora c = new Calculadora();
         double suma = 0;
         double resta = 0;
@@ -117,11 +70,14 @@ public class Calculadora {
             } 
         }
         //System.out.println(suma);
-        System.out.println(resta);
+        //System.out.println(resta);
         //System.out.println(multi);
+        */
+        Grafico g = new Grafico();
+        g.setVisible(true);
         
         
-        
+       
         /*
         char c[];
         c = operacion.toCharArray();
