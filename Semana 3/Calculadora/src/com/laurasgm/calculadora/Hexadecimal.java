@@ -13,9 +13,18 @@ public class Hexadecimal {
     
     
     /*Convierte un numero de hexadecimal a decimal*/
-     public int hexadecimaltodecimal (String numero){
-        return Integer.parseInt(numero, 16);
+     public String hexadecimaltodecimal (String numero){
+        int numdec = Integer.parseInt(numero, 16);
+        String decimal = Integer.toString(numdec);
+        return decimal;
         
     }
+     
+     public String hexadecimaltobinario (String numero){
+        
+        int numbina = Integer.parseInt(numero, 16);
+        String binary = Integer.toBinaryString(numbina);
+        return binary;
+     }
     
 }

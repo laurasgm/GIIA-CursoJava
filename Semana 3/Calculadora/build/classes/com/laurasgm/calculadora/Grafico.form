@@ -49,7 +49,7 @@
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="pantalla" min="-2" pref="260" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
@@ -103,7 +103,13 @@
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="div2" pref="70" max="32767" attributes="0"/>
+                          <Component id="div3" pref="70" max="32767" attributes="0"/>
+                          <Component id="div1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -128,6 +134,7 @@
                   <Component id="number8" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="number9" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="div" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="div1" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -135,6 +142,7 @@
                   <Component id="number5" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="number6" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="multi" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="div2" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -142,6 +150,7 @@
                   <Component id="number2" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="number3" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="res" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="div3" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -313,6 +322,39 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sumActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="div1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="BIN"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="div1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="div2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="HEX"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="div2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="div3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="DEC"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="div3ActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
